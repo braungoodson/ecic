@@ -4,7 +4,7 @@ angular.module('snakeApp')
   .config(function ($stateProvider) {
     $stateProvider
       .state('main', {
-        url: '/',
+        url: '/ecic/main',
         templateUrl: 'app/main/main.html',
         controller: 'MainCtrl'
       });
