@@ -5,7 +5,10 @@ angular.module('snakeApp')
     $scope.menu = [{
       'title': 'Home',
       'link': '/'
-    }];
+    },{
+	'title': 'ecic',
+	'link': '/ecic'
+	}];
 
     $scope.isCollapsed = true;
 
